@@ -5,17 +5,17 @@ package com.iesvdc.dam.acceso.modelo;
  */
 public enum FieldType {
     INTEGER,
-    DECIMAL,
-    STRING,
+    FLOAT,
+    VARCHAR,
     DATE,
     BOOLEAN,
     UNKNOWN;
 
     /**
      * Determina si el tipo representa un valor numérico.
-     * @return true si es INTEGER o DECIMAL.
+     * @return true si es INTEGER o FLOAT.
      */
     public boolean isNumeric() {
-        return this == INTEGER || this == DECIMAL;
+        return this == INTEGER || this == FLOAT;
     }
 }

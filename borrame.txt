@@ -1,0 +1,25 @@
+{ tables='[
+        { name='persona', fields='[
+                { name='nombre', type='STRING'
+                },
+                { name='apellidos', type='STRING'
+                },
+                { name='email', type='STRING'
+                },
+                { name='teléfono', type='INTEGER'
+                },
+                { name='género', type='STRING'
+                }
+            ]'
+        },
+        { name='productos', fields='[
+                { name='id', type='INTEGER'
+                },
+                { name='nombre', type='STRING'
+                },
+                { name='precio', type='INTEGER'
+                }
+            ]'
+        }
+    ]'
+}
